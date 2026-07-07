@@ -1,0 +1,146 @@
+{
+  "hostname": "MacMini-M4-Pro-von-Patrick.fritz.box",
+  "lastUpdated": "2026-07-07T17:27:07.881Z",
+  "days": {
+    "2026-05-23": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-4-7": {
+            "inputTokens": 4725495,
+            "outputTokens": 33957,
+            "rawInputTokens": 99,
+            "cachedInputTokens": 4468197,
+            "cacheCreationInputTokens": 257199,
+            "costUSD": 4.691012249999998
+          }
+        },
+        "totals": {
+          "inputTokens": 4725495,
+          "outputTokens": 33957,
+          "rawInputTokens": 99,
+          "cachedInputTokens": 4468197,
+          "cacheCreationInputTokens": 257199,
+          "costUSD": 4.691012249999998
+        }
+      }
+    },
+    "2026-07-02": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-4-8": {
+            "inputTokens": 2656281,
+            "outputTokens": 32309,
+            "rawInputTokens": 10450,
+            "cachedInputTokens": 2538944,
+            "cacheCreationInputTokens": 106887,
+            "costUSD": 2.79749075
+          }
+        },
+        "totals": {
+          "inputTokens": 2656281,
+          "outputTokens": 32309,
+          "rawInputTokens": 10450,
+          "cachedInputTokens": 2538944,
+          "cacheCreationInputTokens": 106887,
+          "costUSD": 2.79749075
+        }
+      }
+    },
+    "2026-07-03": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-4-8": {
+            "inputTokens": 390616,
+            "outputTokens": 7469,
+            "rawInputTokens": 6513,
+            "cachedInputTokens": 348190,
+            "cacheCreationInputTokens": 35913,
+            "costUSD": 0.6178412499999999
+          }
+        },
+        "totals": {
+          "inputTokens": 390616,
+          "outputTokens": 7469,
+          "rawInputTokens": 6513,
+          "cachedInputTokens": 348190,
+          "cacheCreationInputTokens": 35913,
+          "costUSD": 0.6178412499999999
+        }
+      }
+    },
+    "2026-05-28": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-4-8": {
+            "inputTokens": 1985558,
+            "outputTokens": 27461,
+            "rawInputTokens": 1418,
+            "cachedInputTokens": 1811259,
+            "cacheCreationInputTokens": 172881,
+            "costUSD": 2.6797507499999997
+          }
+        },
+        "totals": {
+          "inputTokens": 1985558,
+          "outputTokens": 27461,
+          "rawInputTokens": 1418,
+          "cachedInputTokens": 1811259,
+          "cacheCreationInputTokens": 172881,
+          "costUSD": 2.6797507499999997
+        }
+      }
+    },
+    "2026-07-07": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-4-8": {
+            "inputTokens": 3805851,
+            "outputTokens": 53351,
+            "rawInputTokens": 11579,
+            "cachedInputTokens": 3569558,
+            "cacheCreationInputTokens": 224714,
+            "costUSD": 4.5809115
+          }
+        },
+        "totals": {
+          "inputTokens": 3805851,
+          "outputTokens": 53351,
+          "rawInputTokens": 11579,
+          "cachedInputTokens": 3569558,
+          "cacheCreationInputTokens": 224714,
+          "costUSD": 4.5809115
+        }
+      }
+    },
+    "2026-05-27": {
+      "claude_code": {
+        "byModel": {
+          "claude-haiku-4-5-20251001": {
+            "inputTokens": 957680,
+            "outputTokens": 2712,
+            "rawInputTokens": 134,
+            "cachedInputTokens": 874880,
+            "cacheCreationInputTokens": 82666,
+            "costUSD": 0.2045145
+          },
+          "claude-opus-4-7": {
+            "inputTokens": 11263706,
+            "outputTokens": 68709,
+            "rawInputTokens": 155,
+            "cachedInputTokens": 10913045,
+            "cacheCreationInputTokens": 350506,
+            "costUSD": 9.365685
+          }
+        },
+        "totals": {
+          "inputTokens": 12221386,
+          "outputTokens": 71421,
+          "rawInputTokens": 289,
+          "cachedInputTokens": 11787925,
+          "cacheCreationInputTokens": 433172,
+          "costUSD": 9.5701995
+        }
+      }
+    }
+  }
+}
