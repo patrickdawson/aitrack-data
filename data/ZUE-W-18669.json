@@ -1,6 +1,6 @@
 {
   "hostname": "ZUE-W-18669",
-  "lastUpdated": "2026-07-08T06:08:27.764Z",
+  "lastUpdated": "2026-07-10T06:40:43.476Z",
   "days": {
     "2026-07-02": {
       "claude_code": {
@@ -51,6 +51,28 @@
           "cachedInputTokens": 26911451,
           "cacheCreationInputTokens": 483657,
           "costUSD": 18.391881550000004
+        }
+      }
+    },
+    "2026-07-10": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-4-8": {
+            "inputTokens": 291709,
+            "outputTokens": 2791,
+            "rawInputTokens": 4490,
+            "cachedInputTokens": 275737,
+            "cacheCreationInputTokens": 11482,
+            "costUSD": 0.30185599999999996
+          }
+        },
+        "totals": {
+          "inputTokens": 291709,
+          "outputTokens": 2791,
+          "rawInputTokens": 4490,
+          "cachedInputTokens": 275737,
+          "cacheCreationInputTokens": 11482,
+          "costUSD": 0.30185599999999996
         }
       }
     },
