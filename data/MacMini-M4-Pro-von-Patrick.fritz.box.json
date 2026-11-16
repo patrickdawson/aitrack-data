@@ -1,6 +1,9 @@
 {
+  "schemaVersion": 2,
   "hostname": "MacMini-M4-Pro-von-Patrick.fritz.box",
-  "lastUpdated": "2026-07-07T17:27:07.881Z",
+  "timezone": "Europe/Berlin",
+  "dayBucket": "local",
+  "lastUpdated": "2026-11-16T06:06:11.410Z",
   "days": {
     "2026-05-23": {
       "claude_code": {
@@ -24,47 +27,46 @@
         }
       }
     },
-    "2026-07-02": {
+    "2026-05-27": {
       "claude_code": {
         "byModel": {
-          "claude-opus-4-8": {
-            "inputTokens": 2656281,
-            "outputTokens": 32309,
-            "rawInputTokens": 10450,
-            "cachedInputTokens": 2538944,
-            "cacheCreationInputTokens": 106887,
-            "costUSD": 2.79749075
+          "claude-haiku-4-5-20251001": {
+            "inputTokens": 957680,
+            "outputTokens": 6287,
+            "rawInputTokens": 134,
+            "cachedInputTokens": 874880,
+            "cacheCreationInputTokens": 82666,
+            "costUSD": 0.22238950000000002
+          },
+          "claude-opus-4-7": {
+            "inputTokens": 11263706,
+            "outputTokens": 70023,
+            "rawInputTokens": 155,
+            "cachedInputTokens": 10913045,
+            "cacheCreationInputTokens": 27917,
+            "cacheCreation1hInputTokens": 322589,
+            "costUSD": 10.608243749999998
           }
         },
         "totals": {
-          "inputTokens": 2656281,
-          "outputTokens": 32309,
-          "rawInputTokens": 10450,
-          "cachedInputTokens": 2538944,
-          "cacheCreationInputTokens": 106887,
-          "costUSD": 2.79749075
-        }
-      }
-    },
-    "2026-07-03": {
-      "claude_code": {
-        "byModel": {
-          "claude-opus-4-8": {
-            "inputTokens": 390616,
-            "outputTokens": 7469,
-            "rawInputTokens": 6513,
-            "cachedInputTokens": 348190,
-            "cacheCreationInputTokens": 35913,
-            "costUSD": 0.6178412499999999
-          }
+          "inputTokens": 12221386,
+          "outputTokens": 76310,
+          "rawInputTokens": 289,
+          "cachedInputTokens": 11787925,
+          "cacheCreationInputTokens": 110583,
+          "cacheCreation1hInputTokens": 322589,
+          "costUSD": 10.830633249999998
         },
-        "totals": {
-          "inputTokens": 390616,
-          "outputTokens": 7469,
-          "rawInputTokens": 6513,
-          "cachedInputTokens": 348190,
-          "cacheCreationInputTokens": 35913,
-          "costUSD": 0.6178412499999999
+        "byProject": {
+          "patrickdawson/jiraworklog-ng": {
+            "inputTokens": 12221386,
+            "outputTokens": 76310,
+            "rawInputTokens": 289,
+            "cachedInputTokens": 11787925,
+            "cacheCreationInputTokens": 110583,
+            "cacheCreation1hInputTokens": 322589,
+            "costUSD": 10.830633249999998
+          }
         }
       }
     },
@@ -76,8 +78,9 @@
             "outputTokens": 27461,
             "rawInputTokens": 1418,
             "cachedInputTokens": 1811259,
-            "cacheCreationInputTokens": 172881,
-            "costUSD": 2.6797507499999997
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 172881,
+            "costUSD": 3.3280545
           }
         },
         "totals": {
@@ -85,8 +88,90 @@
           "outputTokens": 27461,
           "rawInputTokens": 1418,
           "cachedInputTokens": 1811259,
-          "cacheCreationInputTokens": 172881,
-          "costUSD": 2.6797507499999997
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 172881,
+          "costUSD": 3.3280545
+        },
+        "byProject": {
+          "patrickdawson/jiraworklog-ng": {
+            "inputTokens": 1985558,
+            "outputTokens": 27461,
+            "rawInputTokens": 1418,
+            "cachedInputTokens": 1811259,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 172881,
+            "costUSD": 3.3280545
+          }
+        }
+      }
+    },
+    "2026-07-02": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-4-8": {
+            "inputTokens": 2656281,
+            "outputTokens": 32309,
+            "rawInputTokens": 10450,
+            "cachedInputTokens": 2538944,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 106887,
+            "costUSD": 3.198317
+          }
+        },
+        "totals": {
+          "inputTokens": 2656281,
+          "outputTokens": 32309,
+          "rawInputTokens": 10450,
+          "cachedInputTokens": 2538944,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 106887,
+          "costUSD": 3.198317
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 2656281,
+            "outputTokens": 32309,
+            "rawInputTokens": 10450,
+            "cachedInputTokens": 2538944,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 106887,
+            "costUSD": 3.198317
+          }
+        }
+      }
+    },
+    "2026-07-03": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-4-8": {
+            "inputTokens": 390616,
+            "outputTokens": 7469,
+            "rawInputTokens": 6513,
+            "cachedInputTokens": 348190,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 35913,
+            "costUSD": 0.7525149999999999
+          }
+        },
+        "totals": {
+          "inputTokens": 390616,
+          "outputTokens": 7469,
+          "rawInputTokens": 6513,
+          "cachedInputTokens": 348190,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 35913,
+          "costUSD": 0.7525149999999999
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 390616,
+            "outputTokens": 7469,
+            "rawInputTokens": 6513,
+            "cachedInputTokens": 348190,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 35913,
+            "costUSD": 0.7525149999999999
+          }
         }
       }
     },
@@ -112,33 +197,843 @@
         }
       }
     },
-    "2026-05-27": {
+    "2026-07-30": {
       "claude_code": {
         "byModel": {
-          "claude-haiku-4-5-20251001": {
-            "inputTokens": 957680,
-            "outputTokens": 2712,
-            "rawInputTokens": 134,
-            "cachedInputTokens": 874880,
-            "cacheCreationInputTokens": 82666,
-            "costUSD": 0.2045145
-          },
-          "claude-opus-4-7": {
-            "inputTokens": 11263706,
-            "outputTokens": 68709,
-            "rawInputTokens": 155,
-            "cachedInputTokens": 10913045,
-            "cacheCreationInputTokens": 350506,
-            "costUSD": 9.365685
+          "claude-opus-5": {
+            "inputTokens": 7666490,
+            "outputTokens": 45827,
+            "rawInputTokens": 163,
+            "cachedInputTokens": 7491114,
+            "cacheCreationInputTokens": 70338,
+            "cacheCreation1hInputTokens": 104875,
+            "costUSD": 6.3804095
           }
         },
         "totals": {
-          "inputTokens": 12221386,
-          "outputTokens": 71421,
-          "rawInputTokens": 289,
-          "cachedInputTokens": 11787925,
-          "cacheCreationInputTokens": 433172,
-          "costUSD": 9.5701995
+          "inputTokens": 7666490,
+          "outputTokens": 45827,
+          "rawInputTokens": 163,
+          "cachedInputTokens": 7491114,
+          "cacheCreationInputTokens": 70338,
+          "cacheCreation1hInputTokens": 104875,
+          "costUSD": 6.3804095
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 7666490,
+            "outputTokens": 45827,
+            "rawInputTokens": 163,
+            "cachedInputTokens": 7491114,
+            "cacheCreationInputTokens": 70338,
+            "cacheCreation1hInputTokens": 104875,
+            "costUSD": 6.3804095
+          }
+        }
+      }
+    },
+    "2026-08-09": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 33819575,
+            "outputTokens": 152603,
+            "rawInputTokens": 396,
+            "cachedInputTokens": 33453857,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 365322,
+            "costUSD": 24.197203499999993
+          }
+        },
+        "totals": {
+          "inputTokens": 33819575,
+          "outputTokens": 152603,
+          "rawInputTokens": 396,
+          "cachedInputTokens": 33453857,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 365322,
+          "costUSD": 24.197203499999993
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 32644442,
+            "outputTokens": 138596,
+            "rawInputTokens": 349,
+            "cachedInputTokens": 32314253,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 329840,
+            "costUSD": 22.922171499999994
+          },
+          "patrickdawson/jiraworklog": {
+            "inputTokens": 1175133,
+            "outputTokens": 14007,
+            "rawInputTokens": 47,
+            "cachedInputTokens": 1139604,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 35482,
+            "costUSD": 1.275032
+          }
+        }
+      }
+    },
+    "2026-08-10": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 21640454,
+            "outputTokens": 153013,
+            "rawInputTokens": 345,
+            "cachedInputTokens": 20947182,
+            "cacheCreationInputTokens": 102024,
+            "cacheCreation1hInputTokens": 590903,
+            "costUSD": 20.847321
+          }
+        },
+        "totals": {
+          "inputTokens": 21640454,
+          "outputTokens": 153013,
+          "rawInputTokens": 345,
+          "cachedInputTokens": 20947182,
+          "cacheCreationInputTokens": 102024,
+          "cacheCreation1hInputTokens": 590903,
+          "costUSD": 20.847321
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 21640454,
+            "outputTokens": 153013,
+            "rawInputTokens": 345,
+            "cachedInputTokens": 20947182,
+            "cacheCreationInputTokens": 102024,
+            "cacheCreation1hInputTokens": 590903,
+            "costUSD": 20.847321
+          }
+        }
+      }
+    },
+    "2026-08-11": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 31318147,
+            "outputTokens": 205911,
+            "rawInputTokens": 10520,
+            "cachedInputTokens": 30115324,
+            "cacheCreationInputTokens": 268406,
+            "cacheCreation1hInputTokens": 923897,
+            "costUSD": 31.174544500000003
+          }
+        },
+        "totals": {
+          "inputTokens": 31318147,
+          "outputTokens": 205911,
+          "rawInputTokens": 10520,
+          "cachedInputTokens": 30115324,
+          "cacheCreationInputTokens": 268406,
+          "cacheCreation1hInputTokens": 923897,
+          "costUSD": 31.174544500000003
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 31318147,
+            "outputTokens": 205911,
+            "rawInputTokens": 10520,
+            "cachedInputTokens": 30115324,
+            "cacheCreationInputTokens": 268406,
+            "cacheCreation1hInputTokens": 923897,
+            "costUSD": 31.174544500000003
+          }
+        }
+      }
+    },
+    "2026-08-12": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 10342052,
+            "outputTokens": 77456,
+            "rawInputTokens": 1354,
+            "cachedInputTokens": 10005161,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 335537,
+            "costUSD": 10.3011205
+          },
+          "claude-sonnet-5": {
+            "inputTokens": 626891,
+            "outputTokens": 14010,
+            "rawInputTokens": 26,
+            "cachedInputTokens": 546974,
+            "cacheCreationInputTokens": 79891,
+            "costUSD": 0.44927429999999996
+          }
+        },
+        "totals": {
+          "inputTokens": 10968943,
+          "outputTokens": 91466,
+          "rawInputTokens": 1380,
+          "cachedInputTokens": 10552135,
+          "cacheCreationInputTokens": 79891,
+          "cacheCreation1hInputTokens": 335537,
+          "costUSD": 10.7503948
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 10968943,
+            "outputTokens": 91466,
+            "rawInputTokens": 1380,
+            "cachedInputTokens": 10552135,
+            "cacheCreationInputTokens": 79891,
+            "cacheCreation1hInputTokens": 335537,
+            "costUSD": 10.7503948
+          }
+        }
+      }
+    },
+    "2026-08-13": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 673581,
+            "outputTokens": 6334,
+            "rawInputTokens": 11,
+            "cachedInputTokens": 582088,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 91482,
+            "costUSD": 1.364269
+          }
+        },
+        "totals": {
+          "inputTokens": 673581,
+          "outputTokens": 6334,
+          "rawInputTokens": 11,
+          "cachedInputTokens": 582088,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 91482,
+          "costUSD": 1.364269
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 673581,
+            "outputTokens": 6334,
+            "rawInputTokens": 11,
+            "cachedInputTokens": 582088,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 91482,
+            "costUSD": 1.364269
+          }
+        }
+      }
+    },
+    "2026-08-15": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 8187641,
+            "outputTokens": 105654,
+            "rawInputTokens": 209,
+            "cachedInputTokens": 7759813,
+            "cacheCreationInputTokens": 92701,
+            "cacheCreation1hInputTokens": 334918,
+            "costUSD": 10.45086275
+          }
+        },
+        "totals": {
+          "inputTokens": 8187641,
+          "outputTokens": 105654,
+          "rawInputTokens": 209,
+          "cachedInputTokens": 7759813,
+          "cacheCreationInputTokens": 92701,
+          "cacheCreation1hInputTokens": 334918,
+          "costUSD": 10.45086275
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 8187641,
+            "outputTokens": 105654,
+            "rawInputTokens": 209,
+            "cachedInputTokens": 7759813,
+            "cacheCreationInputTokens": 92701,
+            "cacheCreation1hInputTokens": 334918,
+            "costUSD": 10.45086275
+          }
+        }
+      }
+    },
+    "2026-08-16": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 3420950,
+            "outputTokens": 39434,
+            "rawInputTokens": 91,
+            "cachedInputTokens": 3350594,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 70265,
+            "costUSD": 3.364251999999999
+          }
+        },
+        "totals": {
+          "inputTokens": 3420950,
+          "outputTokens": 39434,
+          "rawInputTokens": 91,
+          "cachedInputTokens": 3350594,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 70265,
+          "costUSD": 3.364251999999999
+        },
+        "byProject": {
+          "patrickdawson/jiraworklog": {
+            "inputTokens": 3420950,
+            "outputTokens": 39434,
+            "rawInputTokens": 91,
+            "cachedInputTokens": 3350594,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 70265,
+            "costUSD": 3.364251999999999
+          }
+        }
+      }
+    },
+    "2026-08-17": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 2559069,
+            "outputTokens": 24922,
+            "rawInputTokens": 552,
+            "cachedInputTokens": 2488743,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 69774,
+            "costUSD": 2.5679214999999997
+          }
+        },
+        "totals": {
+          "inputTokens": 2559069,
+          "outputTokens": 24922,
+          "rawInputTokens": 552,
+          "cachedInputTokens": 2488743,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 69774,
+          "costUSD": 2.5679214999999997
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 2559069,
+            "outputTokens": 24922,
+            "rawInputTokens": 552,
+            "cachedInputTokens": 2488743,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 69774,
+            "costUSD": 2.5679214999999997
+          }
+        }
+      }
+    },
+    "2026-08-18": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 128731,
+            "outputTokens": 1321,
+            "rawInputTokens": 6,
+            "cachedInputTokens": 110853,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 17872,
+            "costUSD": 0.2672015
+          }
+        },
+        "totals": {
+          "inputTokens": 128731,
+          "outputTokens": 1321,
+          "rawInputTokens": 6,
+          "cachedInputTokens": 110853,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 17872,
+          "costUSD": 0.2672015
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 128731,
+            "outputTokens": 1321,
+            "rawInputTokens": 6,
+            "cachedInputTokens": 110853,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 17872,
+            "costUSD": 0.2672015
+          }
+        }
+      }
+    },
+    "2026-08-23": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 2415049,
+            "outputTokens": 21518,
+            "rawInputTokens": 52,
+            "cachedInputTokens": 2279015,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 135982,
+            "costUSD": 3.0375375
+          }
+        },
+        "totals": {
+          "inputTokens": 2415049,
+          "outputTokens": 21518,
+          "rawInputTokens": 52,
+          "cachedInputTokens": 2279015,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 135982,
+          "costUSD": 3.0375375
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 2415049,
+            "outputTokens": 21518,
+            "rawInputTokens": 52,
+            "cachedInputTokens": 2279015,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 135982,
+            "costUSD": 3.0375375
+          }
+        }
+      }
+    },
+    "2026-08-29": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5": {
+            "inputTokens": 16827957,
+            "outputTokens": 114065,
+            "rawInputTokens": 398,
+            "cachedInputTokens": 16406200,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 421359,
+            "costUSD": 15.270304999999997
+          }
+        },
+        "totals": {
+          "inputTokens": 16827957,
+          "outputTokens": 114065,
+          "rawInputTokens": 398,
+          "cachedInputTokens": 16406200,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 421359,
+          "costUSD": 15.270304999999997
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 16827957,
+            "outputTokens": 114065,
+            "rawInputTokens": 398,
+            "cachedInputTokens": 16406200,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 421359,
+            "costUSD": 15.270304999999997
+          }
+        }
+      }
+    },
+    "2026-10-11": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 1371709,
+            "outputTokens": 9998,
+            "rawInputTokens": 48,
+            "cachedInputTokens": 1325681,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 45980,
+            "costUSD": 0.8331282
+          }
+        },
+        "totals": {
+          "inputTokens": 1371709,
+          "outputTokens": 9998,
+          "rawInputTokens": 48,
+          "cachedInputTokens": 1325681,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 45980,
+          "costUSD": 0.8331282
+        },
+        "byProject": {
+          "patrickdawson/jiraworklog": {
+            "inputTokens": 1371709,
+            "outputTokens": 9998,
+            "rawInputTokens": 48,
+            "cachedInputTokens": 1325681,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 45980,
+            "costUSD": 0.8331282
+          }
+        }
+      }
+    },
+    "2026-10-13": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 887234,
+            "outputTokens": 6615,
+            "rawInputTokens": 24,
+            "cachedInputTokens": 808462,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 78748,
+            "costUSD": 0.9240723999999999
+          }
+        },
+        "totals": {
+          "inputTokens": 887234,
+          "outputTokens": 6615,
+          "rawInputTokens": 24,
+          "cachedInputTokens": 808462,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 78748,
+          "costUSD": 0.9240723999999999
+        },
+        "byProject": {
+          "patrickdawson/jiraworklog": {
+            "inputTokens": 887234,
+            "outputTokens": 6615,
+            "rawInputTokens": 24,
+            "cachedInputTokens": 808462,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 78748,
+            "costUSD": 0.9240723999999999
+          }
+        }
+      }
+    },
+    "2026-10-16": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 257712,
+            "outputTokens": 2480,
+            "rawInputTokens": 12,
+            "cachedInputTokens": 211517,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 46183,
+            "costUSD": 0.4614154
+          }
+        },
+        "totals": {
+          "inputTokens": 257712,
+          "outputTokens": 2480,
+          "rawInputTokens": 12,
+          "cachedInputTokens": 211517,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 46183,
+          "costUSD": 0.4614154
+        },
+        "byProject": {
+          "(no remote)": {
+            "inputTokens": 257712,
+            "outputTokens": 2480,
+            "rawInputTokens": 12,
+            "cachedInputTokens": 211517,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 46183,
+            "costUSD": 0.4614154
+          }
+        }
+      }
+    },
+    "2026-10-20": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 856259,
+            "outputTokens": 3924,
+            "rawInputTokens": 40,
+            "cachedInputTokens": 801862,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 54357,
+            "costUSD": 0.6738684
+          }
+        },
+        "totals": {
+          "inputTokens": 856259,
+          "outputTokens": 3924,
+          "rawInputTokens": 40,
+          "cachedInputTokens": 801862,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 54357,
+          "costUSD": 0.6738684
+        },
+        "byProject": {
+          "(no remote)": {
+            "inputTokens": 856259,
+            "outputTokens": 3924,
+            "rawInputTokens": 40,
+            "cachedInputTokens": 801862,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 54357,
+            "costUSD": 0.6738684
+          }
+        }
+      }
+    },
+    "2026-10-22": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 96994,
+            "outputTokens": 348,
+            "rawInputTokens": 4,
+            "cachedInputTokens": 72032,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 24958,
+            "costUSD": 0.22104639999999998
+          }
+        },
+        "totals": {
+          "inputTokens": 96994,
+          "outputTokens": 348,
+          "rawInputTokens": 4,
+          "cachedInputTokens": 72032,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 24958,
+          "costUSD": 0.22104639999999998
+        },
+        "byProject": {
+          "(no remote)": {
+            "inputTokens": 96994,
+            "outputTokens": 348,
+            "rawInputTokens": 4,
+            "cachedInputTokens": 72032,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 24958,
+            "costUSD": 0.22104639999999998
+          }
+        }
+      }
+    },
+    "2026-10-25": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 657265,
+            "outputTokens": 4659,
+            "rawInputTokens": 26,
+            "cachedInputTokens": 602065,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 55174,
+            "costUSD": 0.655089
+          }
+        },
+        "totals": {
+          "inputTokens": 657265,
+          "outputTokens": 4659,
+          "rawInputTokens": 26,
+          "cachedInputTokens": 602065,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 55174,
+          "costUSD": 0.655089
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 657265,
+            "outputTokens": 4659,
+            "rawInputTokens": 26,
+            "cachedInputTokens": 602065,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 55174,
+            "costUSD": 0.655089
+          }
+        }
+      }
+    },
+    "2026-10-28": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 3285981,
+            "outputTokens": 15542,
+            "rawInputTokens": 102,
+            "cachedInputTokens": 3220724,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 65155,
+            "costUSD": 1.4766328000000004
+          }
+        },
+        "totals": {
+          "inputTokens": 3285981,
+          "outputTokens": 15542,
+          "rawInputTokens": 102,
+          "cachedInputTokens": 3220724,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 65155,
+          "costUSD": 1.4766328000000004
+        },
+        "byProject": {
+          "patrickdawson/jiraworklog": {
+            "inputTokens": 3285981,
+            "outputTokens": 15542,
+            "rawInputTokens": 102,
+            "cachedInputTokens": 3220724,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 65155,
+            "costUSD": 1.4766328000000004
+          }
+        }
+      }
+    },
+    "2026-10-31": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 2974067,
+            "outputTokens": 14425,
+            "rawInputTokens": 78,
+            "cachedInputTokens": 2811070,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 162919,
+            "costUSD": 2.1543780000000003
+          }
+        },
+        "totals": {
+          "inputTokens": 2974067,
+          "outputTokens": 14425,
+          "rawInputTokens": 78,
+          "cachedInputTokens": 2811070,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 162919,
+          "costUSD": 2.1543780000000003
+        },
+        "byProject": {
+          "patrickdawson/jiraworklog": {
+            "inputTokens": 595702,
+            "outputTokens": 3752,
+            "rawInputTokens": 24,
+            "cachedInputTokens": 568822,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 26856,
+            "costUSD": 0.4037484
+          },
+          "patrickdawson/jiraworklog-ng": {
+            "inputTokens": 2378365,
+            "outputTokens": 10673,
+            "rawInputTokens": 54,
+            "cachedInputTokens": 2242248,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 136063,
+            "costUSD": 1.7506296000000001
+          }
+        }
+      }
+    },
+    "2026-11-09": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 81838,
+            "outputTokens": 575,
+            "rawInputTokens": 4,
+            "cachedInputTokens": 63241,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 18593,
+            "costUSD": 0.1729082
+          }
+        },
+        "totals": {
+          "inputTokens": 81838,
+          "outputTokens": 575,
+          "rawInputTokens": 4,
+          "cachedInputTokens": 63241,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 18593,
+          "costUSD": 0.1729082
+        },
+        "byProject": {
+          "(no remote)": {
+            "inputTokens": 81838,
+            "outputTokens": 575,
+            "rawInputTokens": 4,
+            "cachedInputTokens": 63241,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 18593,
+            "costUSD": 0.1729082
+          }
+        }
+      }
+    },
+    "2026-11-10": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 5149223,
+            "outputTokens": 65706,
+            "rawInputTokens": 90,
+            "cachedInputTokens": 4973072,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 176061,
+            "costUSD": 3.7175824
+          }
+        },
+        "totals": {
+          "inputTokens": 5149223,
+          "outputTokens": 65706,
+          "rawInputTokens": 90,
+          "cachedInputTokens": 4973072,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 176061,
+          "costUSD": 3.7175824
+        },
+        "byProject": {
+          "(no remote)": {
+            "inputTokens": 4350548,
+            "outputTokens": 63489,
+            "rawInputTokens": 82,
+            "cachedInputTokens": 4180528,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 169938,
+            "costUSD": 3.4657176
+          },
+          "patrickdawson/secondbraintolaria": {
+            "inputTokens": 798675,
+            "outputTokens": 2217,
+            "rawInputTokens": 8,
+            "cachedInputTokens": 792544,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 6123,
+            "costUSD": 0.2518648
+          }
+        }
+      }
+    },
+    "2026-11-11": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 620774,
+            "outputTokens": 3410,
+            "rawInputTokens": 26,
+            "cachedInputTokens": 591478,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 29270,
+            "costUSD": 0.4207595999999999
+          }
+        },
+        "totals": {
+          "inputTokens": 620774,
+          "outputTokens": 3410,
+          "rawInputTokens": 26,
+          "cachedInputTokens": 591478,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 29270,
+          "costUSD": 0.4207595999999999
+        },
+        "byProject": {
+          "patrickdawson/secondbraintolaria": {
+            "inputTokens": 620774,
+            "outputTokens": 3410,
+            "rawInputTokens": 26,
+            "cachedInputTokens": 591478,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 29270,
+            "costUSD": 0.4207595999999999
+          }
         }
       }
     }
