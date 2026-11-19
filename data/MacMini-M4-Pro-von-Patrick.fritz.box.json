@@ -3,7 +3,7 @@
   "hostname": "MacMini-M4-Pro-von-Patrick.fritz.box",
   "timezone": "Europe/Berlin",
   "dayBucket": "local",
-  "lastUpdated": "2026-11-16T06:06:11.410Z",
+  "lastUpdated": "2026-11-19T06:17:08.855Z",
   "days": {
     "2026-05-23": {
       "claude_code": {
@@ -1033,6 +1033,76 @@
             "cacheCreationInputTokens": 0,
             "cacheCreation1hInputTokens": 29270,
             "costUSD": 0.4207595999999999
+          }
+        }
+      }
+    },
+    "2026-11-16": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 93323,
+            "outputTokens": 292,
+            "rawInputTokens": 4,
+            "cachedInputTokens": 73296,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 20023,
+            "costUSD": 0.1806992
+          }
+        },
+        "totals": {
+          "inputTokens": 93323,
+          "outputTokens": 292,
+          "rawInputTokens": 4,
+          "cachedInputTokens": 73296,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 20023,
+          "costUSD": 0.1806992
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 93323,
+            "outputTokens": 292,
+            "rawInputTokens": 4,
+            "cachedInputTokens": 73296,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 20023,
+            "costUSD": 0.1806992
+          }
+        }
+      }
+    },
+    "2026-11-18": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 331614,
+            "outputTokens": 1334,
+            "rawInputTokens": 14,
+            "cachedInputTokens": 307974,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 23626,
+            "costUSD": 0.2773388
+          }
+        },
+        "totals": {
+          "inputTokens": 331614,
+          "outputTokens": 1334,
+          "rawInputTokens": 14,
+          "cachedInputTokens": 307974,
+          "cacheCreationInputTokens": 0,
+          "cacheCreation1hInputTokens": 23626,
+          "costUSD": 0.2773388
+        },
+        "byProject": {
+          "(no remote)": {
+            "inputTokens": 331614,
+            "outputTokens": 1334,
+            "rawInputTokens": 14,
+            "cachedInputTokens": 307974,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 23626,
+            "costUSD": 0.2773388
           }
         }
       }
