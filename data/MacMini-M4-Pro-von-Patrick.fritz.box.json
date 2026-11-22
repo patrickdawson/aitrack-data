@@ -3,7 +3,7 @@
   "hostname": "MacMini-M4-Pro-von-Patrick.fritz.box",
   "timezone": "Europe/Berlin",
   "dayBucket": "local",
-  "lastUpdated": "2026-11-19T06:17:08.855Z",
+  "lastUpdated": "2026-11-22T17:23:30.700Z",
   "days": {
     "2026-05-23": {
       "claude_code": {
@@ -1103,6 +1103,76 @@
             "cacheCreationInputTokens": 0,
             "cacheCreation1hInputTokens": 23626,
             "costUSD": 0.2773388
+          }
+        }
+      }
+    },
+    "2026-11-21": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 32296727,
+            "outputTokens": 242091,
+            "rawInputTokens": 680,
+            "cachedInputTokens": 31101574,
+            "cacheCreationInputTokens": 357894,
+            "cacheCreation1hInputTokens": 836579,
+            "costUSD": 19.546956799999997
+          }
+        },
+        "totals": {
+          "inputTokens": 32296727,
+          "outputTokens": 242091,
+          "rawInputTokens": 680,
+          "cachedInputTokens": 31101574,
+          "cacheCreationInputTokens": 357894,
+          "cacheCreation1hInputTokens": 836579,
+          "costUSD": 19.546956799999997
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 32296727,
+            "outputTokens": 242091,
+            "rawInputTokens": 680,
+            "cachedInputTokens": 31101574,
+            "cacheCreationInputTokens": 357894,
+            "cacheCreation1hInputTokens": 836579,
+            "costUSD": 19.546956799999997
+          }
+        }
+      }
+    },
+    "2026-11-22": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 48106981,
+            "outputTokens": 229707,
+            "rawInputTokens": 532,
+            "cachedInputTokens": 47380499,
+            "cacheCreationInputTokens": 47097,
+            "cacheCreation1hInputTokens": 678853,
+            "costUSD": 19.73867679999999
+          }
+        },
+        "totals": {
+          "inputTokens": 48106981,
+          "outputTokens": 229707,
+          "rawInputTokens": 532,
+          "cachedInputTokens": 47380499,
+          "cacheCreationInputTokens": 47097,
+          "cacheCreation1hInputTokens": 678853,
+          "costUSD": 19.73867679999999
+        },
+        "byProject": {
+          "patrick/smartbrokerplustracker": {
+            "inputTokens": 48106981,
+            "outputTokens": 229707,
+            "rawInputTokens": 532,
+            "cachedInputTokens": 47380499,
+            "cacheCreationInputTokens": 47097,
+            "cacheCreation1hInputTokens": 678853,
+            "costUSD": 19.73867679999999
           }
         }
       }
