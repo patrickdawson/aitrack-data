@@ -3,7 +3,7 @@
   "hostname": "ZUE-W-18669",
   "timezone": "Europe/Berlin",
   "dayBucket": "local",
-  "lastUpdated": "2026-11-19T06:46:50.742Z",
+  "lastUpdated": "2026-11-27T08:13:53.400Z",
   "days": {
     "2026-06-19": {
       "claude_code": {
@@ -274,7 +274,7 @@
           "costUSD": 0.712123
         },
         "byProject": {
-          "(no remote)": {
+          "patrickdawson/secondbrainarchiv": {
             "inputTokens": 442353,
             "outputTokens": 6488,
             "rawInputTokens": 251,
@@ -1555,15 +1555,6 @@
           "costUSD": 61.39541733
         },
         "byProject": {
-          "(no remote)": {
-            "inputTokens": 936512,
-            "outputTokens": 13828,
-            "rawInputTokens": 32,
-            "cachedInputTokens": 867338,
-            "cacheCreationInputTokens": 0,
-            "cacheCreation1hInputTokens": 69142,
-            "costUSD": 1.0032916
-          },
           "dawsonp/nights-watch": {
             "inputTokens": 96984771,
             "outputTokens": 452661,
@@ -1572,6 +1563,15 @@
             "cacheCreationInputTokens": 526393,
             "cacheCreation1hInputTokens": 946442,
             "costUSD": 38.3625358
+          },
+          "patrickdawson/secondbrainarchiv": {
+            "inputTokens": 936512,
+            "outputTokens": 13828,
+            "rawInputTokens": 32,
+            "cachedInputTokens": 867338,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 69142,
+            "costUSD": 1.0032916
           },
           "ze/storage": {
             "inputTokens": 47102105,
@@ -2049,42 +2049,478 @@
     "2026-11-19": {
       "claude_code": {
         "byModel": {
-          "claude-sonnet-5-5": {
-            "inputTokens": 2893047,
-            "outputTokens": 24169,
-            "rawInputTokens": 100,
-            "cachedInputTokens": 2624076,
-            "cacheCreationInputTokens": 268871,
-            "costUSD": 1.1764751
-          },
           "claude-opus-5-5": {
-            "inputTokens": 12360495,
-            "outputTokens": 43672,
-            "rawInputTokens": 168,
-            "cachedInputTokens": 11026269,
-            "cacheCreationInputTokens": 286484,
-            "cacheCreation1hInputTokens": 1047574,
-            "costUSD": 12.8923778
+            "inputTokens": 245788522,
+            "outputTokens": 643356,
+            "rawInputTokens": 2366,
+            "cachedInputTokens": 239160911,
+            "cacheCreationInputTokens": 1816143,
+            "cacheCreation1hInputTokens": 4809102,
+            "costUSD": 108.26229720000005
+          },
+          "claude-sonnet-5-5": {
+            "inputTokens": 14793378,
+            "outputTokens": 146899,
+            "rawInputTokens": 460,
+            "cachedInputTokens": 13417148,
+            "cacheCreationInputTokens": 1375770,
+            "costUSD": 6.2510498
+          },
+          "claude-haiku-5-5": {
+            "inputTokens": 75571,
+            "outputTokens": 8469,
+            "rawInputTokens": 16,
+            "cachedInputTokens": 44898,
+            "cacheCreationInputTokens": 30657,
+            "costUSD": 0.008517205
           }
         },
         "totals": {
-          "inputTokens": 15253542,
-          "outputTokens": 67841,
-          "rawInputTokens": 268,
-          "cachedInputTokens": 13650345,
-          "cacheCreationInputTokens": 555355,
-          "cacheCreation1hInputTokens": 1047574,
-          "costUSD": 14.068852900000001
+          "inputTokens": 260657471,
+          "outputTokens": 798724,
+          "rawInputTokens": 2842,
+          "cachedInputTokens": 252622957,
+          "cacheCreationInputTokens": 3222570,
+          "cacheCreation1hInputTokens": 4809102,
+          "costUSD": 114.52186420500006
         },
         "byProject": {
+          "(no remote)": {
+            "inputTokens": 2728187,
+            "outputTokens": 34837,
+            "rawInputTokens": 96,
+            "cachedInputTokens": 2617744,
+            "cacheCreationInputTokens": 30657,
+            "cacheCreation1hInputTokens": 79690,
+            "costUSD": 1.6882864050000002
+          },
+          "ze/storage": {
+            "inputTokens": 184193,
+            "outputTokens": 625,
+            "rawInputTokens": 6,
+            "cachedInputTokens": 155026,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 29161,
+            "costUSD": 0.2768172
+          },
           "ze/zwickroell-software-products": {
-            "inputTokens": 15253542,
-            "outputTokens": 67841,
-            "rawInputTokens": 268,
-            "cachedInputTokens": 13650345,
-            "cacheCreationInputTokens": 555355,
-            "cacheCreation1hInputTokens": 1047574,
-            "costUSD": 14.068852900000001
+            "inputTokens": 257745091,
+            "outputTokens": 763262,
+            "rawInputTokens": 2740,
+            "cachedInputTokens": 249850187,
+            "cacheCreationInputTokens": 3191913,
+            "cacheCreation1hInputTokens": 4700251,
+            "costUSD": 112.55676060000005
+          }
+        }
+      }
+    },
+    "2026-11-20": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 138384870,
+            "outputTokens": 575856,
+            "rawInputTokens": 1968,
+            "cachedInputTokens": 134898695,
+            "cacheCreationInputTokens": 672378,
+            "cacheCreation1hInputTokens": 2811829,
+            "costUSD": 64.36125299999999
+          },
+          "claude-sonnet-5-5": {
+            "inputTokens": 1615177,
+            "outputTokens": 14487,
+            "rawInputTokens": 58,
+            "cachedInputTokens": 1428312,
+            "cacheCreationInputTokens": 186807,
+            "costUSD": 0.7548347
+          }
+        },
+        "totals": {
+          "inputTokens": 140000047,
+          "outputTokens": 590343,
+          "rawInputTokens": 2026,
+          "cachedInputTokens": 136327007,
+          "cacheCreationInputTokens": 859185,
+          "cacheCreation1hInputTokens": 2811829,
+          "costUSD": 65.11608770000001
+        },
+        "byProject": {
+          "patrickdawson/jiraworklog-ng": {
+            "inputTokens": 32541728,
+            "outputTokens": 106307,
+            "rawInputTokens": 368,
+            "cachedInputTokens": 32012522,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 528838,
+            "costUSD": 12.7608204
+          },
+          "ze/storage": {
+            "inputTokens": 26335820,
+            "outputTokens": 139334,
+            "rawInputTokens": 510,
+            "cachedInputTokens": 25626806,
+            "cacheCreationInputTokens": 317521,
+            "cacheCreation1hInputTokens": 390983,
+            "costUSD": 12.3287638
+          },
+          "ze/zwickroell-software-products": {
+            "inputTokens": 81122499,
+            "outputTokens": 344702,
+            "rawInputTokens": 1148,
+            "cachedInputTokens": 78687679,
+            "cacheCreationInputTokens": 541664,
+            "cacheCreation1hInputTokens": 1892008,
+            "costUSD": 40.02650349999999
+          }
+        }
+      }
+    },
+    "2026-11-23": {
+      "claude_code": {
+        "byModel": {
+          "claude-haiku-5-5": {
+            "inputTokens": 100880,
+            "outputTokens": 4349,
+            "rawInputTokens": 4,
+            "cachedInputTokens": 4043,
+            "cacheCreationInputTokens": 96833,
+            "costUSD": 0.014319455
+          },
+          "claude-opus-5-5": {
+            "inputTokens": 344896272,
+            "outputTokens": 2048886,
+            "rawInputTokens": 5332,
+            "cachedInputTokens": 334798455,
+            "cacheCreationInputTokens": 8304197,
+            "cacheCreation1hInputTokens": 1788288,
+            "costUSD": 163.78602799999987
+          },
+          "claude-sonnet-5-5": {
+            "inputTokens": 52533530,
+            "outputTokens": 356422,
+            "rawInputTokens": 970,
+            "cachedInputTokens": 50411574,
+            "cacheCreationInputTokens": 2120986,
+            "costUSD": 13.909782399999997
+          }
+        },
+        "totals": {
+          "inputTokens": 397530682,
+          "outputTokens": 2409657,
+          "rawInputTokens": 6306,
+          "cachedInputTokens": 385214072,
+          "cacheCreationInputTokens": 10522016,
+          "cacheCreation1hInputTokens": 1788288,
+          "costUSD": 177.71012985499988
+        },
+        "byProject": {
+          "(no remote)": {
+            "inputTokens": 1172243,
+            "outputTokens": 7495,
+            "rawInputTokens": 38,
+            "cachedInputTokens": 1127151,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 45054,
+            "costUSD": 0.7359142
+          },
+          "ze/storage": {
+            "inputTokens": 145091563,
+            "outputTokens": 780359,
+            "rawInputTokens": 1482,
+            "cachedInputTokens": 141730456,
+            "cacheCreationInputTokens": 2672203,
+            "cacheCreation1hInputTokens": 687422,
+            "costUSD": 59.225626954999996
+          },
+          "ze/zwickroell-software-products": {
+            "inputTokens": 251266876,
+            "outputTokens": 1621803,
+            "rawInputTokens": 4786,
+            "cachedInputTokens": 242356465,
+            "cacheCreationInputTokens": 7849813,
+            "cacheCreation1hInputTokens": 1055812,
+            "costUSD": 117.7485887000001
+          }
+        }
+      }
+    },
+    "2026-11-24": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 203545799,
+            "outputTokens": 1174059,
+            "rawInputTokens": 3396,
+            "cachedInputTokens": 196344072,
+            "cacheCreationInputTokens": 5420367,
+            "cacheCreation1hInputTokens": 1777964,
+            "costUSD": 104.08912539999999
+          },
+          "claude-sonnet-5-5": {
+            "inputTokens": 15338447,
+            "outputTokens": 80881,
+            "rawInputTokens": 460,
+            "cachedInputTokens": 14296748,
+            "cacheCreationInputTokens": 1041239,
+            "costUSD": 4.842502299999999
+          },
+          "claude-fable-5-2": {
+            "inputTokens": 95074508,
+            "outputTokens": 1086133,
+            "rawInputTokens": 1198,
+            "cachedInputTokens": 90420861,
+            "cacheCreationInputTokens": 4384134,
+            "cacheCreation1hInputTokens": 268315,
+            "costUSD": 109.67345620000002
+          }
+        },
+        "totals": {
+          "inputTokens": 313958754,
+          "outputTokens": 2341073,
+          "rawInputTokens": 5054,
+          "cachedInputTokens": 301061681,
+          "cacheCreationInputTokens": 10845740,
+          "cacheCreation1hInputTokens": 2046279,
+          "costUSD": 218.60508389999995
+        },
+        "byProject": {
+          "(no remote)": {
+            "inputTokens": 4055727,
+            "outputTokens": 39881,
+            "rawInputTokens": 84,
+            "cachedInputTokens": 3883179,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 172464,
+            "costUSD": 2.9543038
+          },
+          "patrickdawson/secondbraintolaria": {
+            "inputTokens": 3395877,
+            "outputTokens": 41445,
+            "rawInputTokens": 72,
+            "cachedInputTokens": 3281642,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 114163,
+            "costUSD": 2.3988204
+          },
+          "ze/storage": {
+            "inputTokens": 206971313,
+            "outputTokens": 1602927,
+            "rawInputTokens": 2732,
+            "cachedInputTokens": 198961109,
+            "cacheCreationInputTokens": 6630358,
+            "cacheCreation1hInputTokens": 1377114,
+            "costUSD": 157.9788729
+          },
+          "ze/zwickroell-software-products": {
+            "inputTokens": 99535837,
+            "outputTokens": 656820,
+            "rawInputTokens": 2166,
+            "cachedInputTokens": 94935751,
+            "cacheCreationInputTokens": 4215382,
+            "cacheCreation1hInputTokens": 382538,
+            "costUSD": 55.273086799999994
+          }
+        }
+      }
+    },
+    "2026-11-25": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 239980717,
+            "outputTokens": 1229063,
+            "rawInputTokens": 4458,
+            "cachedInputTokens": 231974347,
+            "cacheCreationInputTokens": 5768029,
+            "cacheCreation1hInputTokens": 2233883,
+            "costUSD": 117.70517040000001
+          },
+          "claude-sonnet-5-5": {
+            "inputTokens": 8582220,
+            "outputTokens": 39334,
+            "rawInputTokens": 228,
+            "cachedInputTokens": 7046800,
+            "cacheCreationInputTokens": 1535192,
+            "costUSD": 4.936456
+          }
+        },
+        "totals": {
+          "inputTokens": 248562937,
+          "outputTokens": 1268397,
+          "rawInputTokens": 4686,
+          "cachedInputTokens": 239021147,
+          "cacheCreationInputTokens": 7303221,
+          "cacheCreation1hInputTokens": 2233883,
+          "costUSD": 122.64162640000002
+        },
+        "byProject": {
+          "(no remote)": {
+            "inputTokens": 1399312,
+            "outputTokens": 12460,
+            "rawInputTokens": 38,
+            "cachedInputTokens": 1316293,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 82981,
+            "costUSD": 1.1764586
+          },
+          "patrickdawson/jiraworklog-ng": {
+            "inputTokens": 942818,
+            "outputTokens": 8486,
+            "rawInputTokens": 22,
+            "cachedInputTokens": 929056,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 13740,
+            "costUSD": 0.4655392000000001
+          },
+          "ze/storage": {
+            "inputTokens": 162951322,
+            "outputTokens": 758589,
+            "rawInputTokens": 2876,
+            "cachedInputTokens": 156866203,
+            "cacheCreationInputTokens": 4861032,
+            "cacheCreation1hInputTokens": 1221211,
+            "costUSD": 75.69491660000001
+          },
+          "ze/zwickroell-software-products": {
+            "inputTokens": 83269485,
+            "outputTokens": 488862,
+            "rawInputTokens": 1750,
+            "cachedInputTokens": 79909595,
+            "cacheCreationInputTokens": 2442189,
+            "cacheCreation1hInputTokens": 915951,
+            "costUSD": 45.304712
+          }
+        }
+      }
+    },
+    "2026-11-26": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 402172114,
+            "outputTokens": 2622589,
+            "rawInputTokens": 6522,
+            "cachedInputTokens": 391202422,
+            "cacheCreationInputTokens": 8164876,
+            "cacheCreation1hInputTokens": 2798294,
+            "costUSD": 193.9290844000001
+          },
+          "claude-sonnet-5-5": {
+            "inputTokens": 39252418,
+            "outputTokens": 596495,
+            "rawInputTokens": 1268,
+            "cachedInputTokens": 34521410,
+            "cacheCreationInputTokens": 4729740,
+            "costUSD": 21.243976999999997
+          }
+        },
+        "totals": {
+          "inputTokens": 441424532,
+          "outputTokens": 3219084,
+          "rawInputTokens": 7790,
+          "cachedInputTokens": 425723832,
+          "cacheCreationInputTokens": 12894616,
+          "cacheCreation1hInputTokens": 2798294,
+          "costUSD": 215.1730614
+        },
+        "byProject": {
+          "(no remote)": {
+            "inputTokens": 6424057,
+            "outputTokens": 26905,
+            "rawInputTokens": 122,
+            "cachedInputTokens": 6349782,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 74153,
+            "costUSD": 2.401768400000001
+          },
+          "patrickdawson/notes": {
+            "inputTokens": 73097241,
+            "outputTokens": 726279,
+            "rawInputTokens": 1174,
+            "cachedInputTokens": 69561047,
+            "cacheCreationInputTokens": 2998603,
+            "cacheCreation1hInputTokens": 536417,
+            "costUSD": 37.41544100000001
+          },
+          "ze/renovate-config": {
+            "inputTokens": 808785,
+            "outputTokens": 2862,
+            "rawInputTokens": 12,
+            "cachedInputTokens": 804074,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 4699,
+            "costUSD": 0.2556948
+          },
+          "ze/storage": {
+            "inputTokens": 310181168,
+            "outputTokens": 2045028,
+            "rawInputTokens": 5442,
+            "cachedInputTokens": 300459263,
+            "cacheCreationInputTokens": 8505588,
+            "cacheCreation1hInputTokens": 1210875,
+            "costUSD": 148.03337950000005
+          },
+          "ze/zwickroell-software-products": {
+            "inputTokens": 50913281,
+            "outputTokens": 418010,
+            "rawInputTokens": 1040,
+            "cachedInputTokens": 48549666,
+            "cacheCreationInputTokens": 1390425,
+            "cacheCreation1hInputTokens": 972150,
+            "costUSD": 27.0667777
+          }
+        }
+      }
+    },
+    "2026-11-27": {
+      "claude_code": {
+        "byModel": {
+          "claude-opus-5-5": {
+            "inputTokens": 195561219,
+            "outputTokens": 1141234,
+            "rawInputTokens": 2834,
+            "cachedInputTokens": 189201605,
+            "cacheCreationInputTokens": 4857960,
+            "cacheCreation1hInputTokens": 1498820,
+            "costUSD": 96.956697
+          },
+          "claude-sonnet-5-5": {
+            "inputTokens": 21777624,
+            "outputTokens": 96428,
+            "rawInputTokens": 740,
+            "cachedInputTokens": 19744888,
+            "cacheCreationInputTokens": 2031996,
+            "costUSD": 8.0202388
+          }
+        },
+        "totals": {
+          "inputTokens": 217338843,
+          "outputTokens": 1237662,
+          "rawInputTokens": 3574,
+          "cachedInputTokens": 208946493,
+          "cacheCreationInputTokens": 6889956,
+          "cacheCreation1hInputTokens": 1498820,
+          "costUSD": 104.9769358
+        },
+        "byProject": {
+          "ze/storage": {
+            "inputTokens": 213302759,
+            "outputTokens": 1203926,
+            "rawInputTokens": 3504,
+            "cachedInputTokens": 205032060,
+            "cacheCreationInputTokens": 6889956,
+            "cacheCreation1hInputTokens": 1377239,
+            "costUSD": 102.5464012
+          },
+          "ze/zwickroell-software-products": {
+            "inputTokens": 4036084,
+            "outputTokens": 33736,
+            "rawInputTokens": 70,
+            "cachedInputTokens": 3914433,
+            "cacheCreationInputTokens": 0,
+            "cacheCreation1hInputTokens": 121581,
+            "costUSD": 2.4305345999999997
           }
         }
       }
